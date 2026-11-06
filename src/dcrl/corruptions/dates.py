@@ -115,9 +115,9 @@ class ExcelSerial(_DateCorruption):
         c = repr(spec.name)
         return (
             f"_n = pd.to_numeric(df[{c}], errors='coerce')\n"
-            "_s = (pd.Timestamp('1899-12-30') + pd.to_timedelta(_n, unit='D'))"
-            ".dt.strftime('%Y-%m-%d')\n"
-            f"df[{c}] = _s.where(_n.notna(), df[{c}])\n"
+            "_serial = _n.notna()\n"
+            f"df.loc[_serial, {c}] = (pd.Timestamp('1899-12-30')"
+            " + pd.to_timedelta(_n[_serial].astype('int64'), unit='D')).dt.strftime('%Y-%m-%d')\n"
         )
 
 
