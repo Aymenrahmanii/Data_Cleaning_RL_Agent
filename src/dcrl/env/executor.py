@@ -96,6 +96,14 @@ class SandboxExecutor:
         stdout = proc.stdout.decode("utf-8", errors="replace")
         marker = f"{RESPONSE_MARK}{nonce}>> "
         line = next((ln for ln in reversed(stdout.splitlines()) if ln.startswith(marker)), None)
+        if line is None and proc.returncode < 0:
+            return ExecResult(
+                False,
+                "",
+                f"the run was killed by the sandbox (signal {-proc.returncode}), most likely "
+                "over the CPU or memory limit",
+                None,
+            )
         if line is None:
             tail = proc.stderr.decode("utf-8", errors="replace")[-300:]
             return ExecResult(
