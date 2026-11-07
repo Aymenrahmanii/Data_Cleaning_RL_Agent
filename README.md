@@ -84,6 +84,12 @@ src/dcrl/
   cli.py           dcrl generate, dcrl show
 ```
 
+## Licence
+
+The code is released under the MIT licence (see `LICENSE`). Generated tasks are derived
+from Faker output and the table types in this repo. Public open-data tables, once added,
+will each record their own licence in the task manifest.
+
 ## Still to do in week 1
 
 - Public open-data tables (GovData, Destatis, OpenML) for the held-out set, each with its
