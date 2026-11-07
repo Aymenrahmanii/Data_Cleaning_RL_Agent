@@ -16,6 +16,7 @@ from dataclasses import dataclass
 import numpy as np
 
 from dcrl.corruptions import REGISTRY
+from dcrl.public import PUBLIC_TABLES
 from dcrl.tables import TABLE_TYPES
 from dcrl.tasks import Task, build_task
 
@@ -27,6 +28,7 @@ HELDOUT_TABLES: tuple[str, ...] = (
     "quality_inspections",
     "warehouse_moves",
 )
+HELDOUT_PUBLIC: tuple[str, ...] = tuple(PUBLIC_TABLES)
 TRAIN_TABLES: tuple[str, ...] = tuple(t for t in TABLE_TYPES if t not in HELDOUT_TABLES)
 UNSEEN_CORRUPTIONS: frozenset[str] = frozenset({"excel_serial", "merge_columns"})
 SEEN_CORRUPTIONS: frozenset[str] = frozenset(REGISTRY) - UNSEEN_CORRUPTIONS
@@ -46,7 +48,7 @@ SPLITS: dict[str, Split] = {
     for s in (
         Split("train", 1, TRAIN_TABLES, SEEN_CORRUPTIONS),
         Split("dev", 2, TRAIN_TABLES, SEEN_CORRUPTIONS),
-        Split("heldout", 3, HELDOUT_TABLES, SEEN_CORRUPTIONS),
+        Split("heldout", 3, HELDOUT_TABLES + HELDOUT_PUBLIC, SEEN_CORRUPTIONS),
         Split("unseen", 4, TRAIN_TABLES, frozenset(REGISTRY), tuple(sorted(UNSEEN_CORRUPTIONS))),
     )
 }

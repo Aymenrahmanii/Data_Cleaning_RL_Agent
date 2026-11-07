@@ -58,10 +58,20 @@ reference fix. Any task can be rebuilt from its manifest line with
 | Split | Table types | Corruptions |
 |---|---|---|
 | `train`, `dev` | 14 training types | all except the two held back |
-| `heldout` | the other 6 types | same as training |
+| `heldout` | the other 6 types, plus the public table below | same as training |
 | `unseen` | training types | every task includes `excel_serial` or `merge_columns`, never seen in training |
 
 Splits mix a split code into every task seed, so they never share a task.
+
+## Public tables
+
+| Table | Source | Licence | Rows | Used in |
+|---|---|---|---|---|
+| `stuttgart_sv_employment` | Unternehmen und sozialversicherungspflichtig Beschäftigte, Stuttgart 2020 ([opendata.stuttgart.de](https://opendata.stuttgart.de/dataset/37edbf88-cec4-44fe-b5cf-e1ecc7ee87e6)) | [CC BY 4.0](http://dcat-ap.de/def/licenses/cc-by/4.0) | 323 | `heldout` |
+
+The CSV ships inside the package (`src/dcrl/data/`), and `NOTICE.md` there gives the
+attribution. Every manifest line records its table's source and licence. A public table has
+fewer rows than level 3 asks for, so level-3 tasks on it have 323 rows instead of 1,000.
 
 ## Target schema
 
@@ -92,5 +102,5 @@ will each record their own licence in the task manifest.
 
 ## Still to do in week 1
 
-- Public open-data tables (GovData, Destatis, OpenML) for the held-out set, each with its
-  licence recorded.
+- More public tables (Destatis GENESIS under DL-DE Zero 2.0 is the target). One CC BY table
+  is in so far.

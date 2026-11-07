@@ -42,6 +42,11 @@ class TableType:
     def schema(self) -> TargetSchema:
         return TargetSchema(tuple(c.spec for c in self.columns))
 
+    @property
+    def max_rows(self) -> int | None:
+        """Generated tables have no row limit."""
+        return None
+
     def generate(self, n_rows: int, rng: np.random.Generator) -> pd.DataFrame:
         data: dict[str, pd.Series] = {}
         for col in self.columns:

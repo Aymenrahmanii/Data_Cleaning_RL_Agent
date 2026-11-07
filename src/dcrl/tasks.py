@@ -19,9 +19,24 @@ import pandas as pd
 
 from dcrl.corruptions import CELL, REGISTRY, STRUCTURAL, Applied
 from dcrl.corruptions.base import jsonable
+from dcrl.public import PUBLIC_TABLES, PublicTable
 from dcrl.render import fmt_plain, read_messy, render_plain, to_csv
 from dcrl.schema import TargetSchema
 from dcrl.tables import TABLE_TYPES, TableType
+
+
+def table_for(name: str) -> TableType | PublicTable:
+    """A generated or public table by name."""
+    if name in TABLE_TYPES:
+        return TABLE_TYPES[name]
+    return PUBLIC_TABLES[name]
+
+
+def source_of(name: str) -> dict[str, Any]:
+    """Where a table's clean rows come from, for the manifest."""
+    if name in PUBLIC_TABLES:
+        return PUBLIC_TABLES[name].source()
+    return {"kind": "generated", "generator": "dcrl", "licence": "MIT"}
 
 
 @dataclass(frozen=True)
@@ -231,6 +246,7 @@ class Task:
             "task_id": self.task_id,
             "split": self.split,
             "table_type": self.table_type,
+            "source": source_of(self.table_type),
             "level": self.level,
             "seed": self.seed,
             "n_rows": self.n_rows,
@@ -246,7 +262,7 @@ class Task:
 
 
 def _make_copy(
-    table: TableType,
+    table: TableType | PublicTable,
     corruptions: tuple[Applied, ...],
     n_rows: int,
     seed: int,
@@ -274,13 +290,15 @@ def build_task(
     ``corruptions`` overrides sampling, which is how tests and hand-made tasks pin exactly
     what is broken.
     """
-    table = TABLE_TYPES[table_type]
+    table = table_for(table_type)
     if corruptions is None:
         corruptions = sample_corruptions(
             table.schema, level, np.random.default_rng([seed, 0]), allowed, required
         )
     applied = tuple(corruptions)
     rows = n_rows if n_rows is not None else LEVELS[level].n_rows
+    if table.max_rows is not None:
+        rows = min(rows, table.max_rows)
     return Task(
         task_id=task_id or f"{split}-{table_type}-L{level}-{seed}",
         split=split,

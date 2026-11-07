@@ -1,0 +1,324 @@
+Jahr;Stadtbezirk;Wirtschaftsabschnitt;Anzahl der Unternehmen;Anzahl der sozialversicherungspflichtig Beschäftigten
+2020;Mitte;C Verarbeitendes Gewerbe;86;442
+2020;Mitte;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;307;8188
+2020;Mitte;P Erziehung und Unterricht;113;2881
+2020;Mitte;Q Gesundheits- und Sozialwesen;348;10685
+2020;Mitte;R Kunst, Unterhaltung und Erholung;158;2583
+2020;Mitte;S Erbringung von sonstigen Dienstleistungen;474;4831
+2020;Mitte;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;25;1061
+2020;Nord;C Verarbeitendes Gewerbe;29;175
+2020;Nord;F Baugewerbe;56;692
+2020;Nord;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;134;904
+2020;Nord;J Information und Kommunikation;98;644
+2020;Nord;K Erbringung von Finanz- und Versicherungsdienstleistungen;61;975
+2020;Nord;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;89;932
+2020;Nord;P Erziehung und Unterricht;47;785
+2020;Nord;S Erbringung von sonstigen Dienstleistungen;108;978
+2020;Nord;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;8;0
+2020;Ost;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;277;2611
+2020;Ost;H Verkehr und Lagerei;57;273
+2020;Ost;I Gastgewerbe;160;393
+2020;Ost;L Grundstücks- und Wohnungswesen;133;150
+2020;Ost;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;563;2144
+2020;Ost;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;134;1086
+2020;Ost;P Erziehung und Unterricht;65;556
+2020;Ost;S Erbringung von sonstigen Dienstleistungen;181;1963
+2020;Ost;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;7;290
+2020;Süd;C Verarbeitendes Gewerbe;36;376
+2020;Süd;F Baugewerbe;128;369
+2020;Süd;I Gastgewerbe;146;476
+2020;Süd;J Information und Kommunikation;162;1003
+2020;Süd;K Erbringung von Finanz- und Versicherungsdienstleistungen;70;1311
+2020;Süd;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;112;467
+2020;Süd;P Erziehung und Unterricht;60;334
+2020;Süd;Q Gesundheits- und Sozialwesen;126;4182
+2020;Süd;R Kunst, Unterhaltung und Erholung;105;122
+2020;Süd;S Erbringung von sonstigen Dienstleistungen;155;355
+2020;Süd;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;5;0
+2020;West;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;393;1245
+2020;West;H Verkehr und Lagerei;51;403
+2020;West;I Gastgewerbe;196;761
+2020;West;J Information und Kommunikation;268;3366
+2020;West;K Erbringung von Finanz- und Versicherungsdienstleistungen;82;7284
+2020;West;L Grundstücks- und Wohnungswesen;194;376
+2020;West;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;958;3582
+2020;West;Q Gesundheits- und Sozialwesen;233;5850
+2020;West;R Kunst, Unterhaltung und Erholung;148;209
+2020;West;S Erbringung von sonstigen Dienstleistungen;271;1026
+2020;West;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;28;21
+2020;Bad Cannstatt;C Verarbeitendes Gewerbe;89;4550
+2020;Bad Cannstatt;F Baugewerbe;279;1333
+2020;Bad Cannstatt;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;372;2111
+2020;Bad Cannstatt;H Verkehr und Lagerei;176;357
+2020;Bad Cannstatt;I Gastgewerbe;224;792
+2020;Bad Cannstatt;J Information und Kommunikation;160;3483
+2020;Bad Cannstatt;K Erbringung von Finanz- und Versicherungsdienstleistungen;54;1574
+2020;Bad Cannstatt;L Grundstücks- und Wohnungswesen;172;170
+2020;Bad Cannstatt;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;466;4209
+2020;Bad Cannstatt;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;216;1813
+2020;Bad Cannstatt;P Erziehung und Unterricht;70;803
+2020;Bad Cannstatt;S Erbringung von sonstigen Dienstleistungen;213;1014
+2020;Bad Cannstatt;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;16;368
+2020;Birkach;C Verarbeitendes Gewerbe;13;7
+2020;Birkach;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;28;362
+2020;Birkach;H Verkehr und Lagerei;7;3
+2020;Birkach;I Gastgewerbe;9;14
+2020;Birkach;J Information und Kommunikation;5;2
+2020;Birkach;K Erbringung von Finanz- und Versicherungsdienstleistungen;5;7
+2020;Birkach;L Grundstücks- und Wohnungswesen;19;0
+2020;Birkach;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;63;376
+2020;Birkach;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;11;47
+2020;Birkach;P Erziehung und Unterricht;6;21
+2020;Birkach;Q Gesundheits- und Sozialwesen;13;310
+2020;Birkach;R Kunst, Unterhaltung und Erholung;10;1
+2020;Birkach;S Erbringung von sonstigen Dienstleistungen;14;9
+2020;Birkach;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;22;46
+2020;Botnang;C Verarbeitendes Gewerbe;11;32
+2020;Botnang;F Baugewerbe;40;115
+2020;Botnang;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;55;146
+2020;Botnang;H Verkehr und Lagerei;11;25
+2020;Botnang;I Gastgewerbe;14;17
+2020;Botnang;J Information und Kommunikation;26;6
+2020;Botnang;K Erbringung von Finanz- und Versicherungsdienstleistungen;11;15
+2020;Botnang;L Grundstücks- und Wohnungswesen;29;32
+2020;Botnang;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;122;108
+2020;Botnang;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;26;87
+2020;Botnang;P Erziehung und Unterricht;19;39
+2020;Botnang;Q Gesundheits- und Sozialwesen;35;588
+2020;Botnang;R Kunst, Unterhaltung und Erholung;22;17
+2020;Botnang;S Erbringung von sonstigen Dienstleistungen;17;86
+2020;Botnang;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;2;0
+2020;Degerloch;C Verarbeitendes Gewerbe;42;512
+2020;Degerloch;F Baugewerbe;56;513
+2020;Degerloch;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;147;666
+2020;Degerloch;H Verkehr und Lagerei;22;129
+2020;Degerloch;I Gastgewerbe;60;294
+2020;Degerloch;J Information und Kommunikation;55;753
+2020;Degerloch;K Erbringung von Finanz- und Versicherungsdienstleistungen;38;183
+2020;Degerloch;L Grundstücks- und Wohnungswesen;76;240
+2020;Degerloch;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;335;2175
+2020;Degerloch;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;64;1337
+2020;Degerloch;P Erziehung und Unterricht;31;442
+2020;Degerloch;Q Gesundheits- und Sozialwesen;83;475
+2020;Degerloch;R Kunst, Unterhaltung und Erholung;36;92
+2020;Degerloch;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;4;2
+2020;Degerloch;S Erbringung von sonstigen Dienstleistungen;76;821
+2020;Feuerbach;C Verarbeitendes Gewerbe;61;18254
+2020;Feuerbach;F Baugewerbe;127;1082
+2020;Feuerbach;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;243;3322
+2020;Feuerbach;H Verkehr und Lagerei;40;212
+2020;Feuerbach;I Gastgewerbe;118;615
+2020;Feuerbach;J Information und Kommunikation;83;1436
+2020;Feuerbach;K Erbringung von Finanz- und Versicherungsdienstleistungen;40;2187
+2020;Feuerbach;L Grundstücks- und Wohnungswesen;116;182
+2020;Feuerbach;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;290;3140
+2020;Feuerbach;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;124;1157
+2020;Feuerbach;P Erziehung und Unterricht;31;121
+2020;Feuerbach;Q Gesundheits- und Sozialwesen;97;2057
+2020;Feuerbach;R Kunst, Unterhaltung und Erholung;43;239
+2020;Feuerbach;S Erbringung von sonstigen Dienstleistungen;109;332
+2020;Feuerbach;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;11;121
+2020;Hedelfingen;C Verarbeitendes Gewerbe;21;3541
+2020;Hedelfingen;F Baugewerbe;45;274
+2020;Hedelfingen;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;52;397
+2020;Hedelfingen;H Verkehr und Lagerei;37;990
+2020;Hedelfingen;I Gastgewerbe;31;67
+2020;Hedelfingen;J Information und Kommunikation;13;36
+2020;Hedelfingen;K Erbringung von Finanz- und Versicherungsdienstleistungen;12;22
+2020;Hedelfingen;L Grundstücks- und Wohnungswesen;10;5
+2020;Hedelfingen;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;64;285
+2020;Hedelfingen;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;30;138
+2020;Hedelfingen;P Erziehung und Unterricht;5;4
+2020;Hedelfingen;Q Gesundheits- und Sozialwesen;17;56
+2020;Hedelfingen;R Kunst, Unterhaltung und Erholung;4;1
+2020;Hedelfingen;S Erbringung von sonstigen Dienstleistungen;18;80
+2020;Hedelfingen;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;4;45
+2020;Möhringen;C Verarbeitendes Gewerbe;79;3905
+2020;Möhringen;F Baugewerbe;125;3081
+2020;Möhringen;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;224;4578
+2020;Möhringen;H Verkehr und Lagerei;61;4017
+2020;Möhringen;I Gastgewerbe;94;658
+2020;Möhringen;J Information und Kommunikation;173;3184
+2020;Möhringen;K Erbringung von Finanz- und Versicherungsdienstleistungen;58;409
+2020;Möhringen;L Grundstücks- und Wohnungswesen;127;245
+2020;Möhringen;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;405;7897
+2020;Möhringen;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;117;3290
+2020;Möhringen;P Erziehung und Unterricht;43;447
+2020;Möhringen;Q Gesundheits- und Sozialwesen;97;1856
+2020;Möhringen;R Kunst, Unterhaltung und Erholung;42;614
+2020;Möhringen;S Erbringung von sonstigen Dienstleistungen;100;1067
+2020;Möhringen;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;22;3286
+2020;Mühlhausen;C Verarbeitendes Gewerbe;18;63
+2020;Mühlhausen;F Baugewerbe;54;128
+2020;Mühlhausen;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;83;320
+2020;Mühlhausen;H Verkehr und Lagerei;42;115
+2020;Mühlhausen;I Gastgewerbe;49;73
+2020;Mühlhausen;J Information und Kommunikation;17;5
+2020;Mühlhausen;K Erbringung von Finanz- und Versicherungsdienstleistungen;4;31
+2020;Mühlhausen;L Grundstücks- und Wohnungswesen;40;23
+2020;Mühlhausen;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;69;51
+2020;Mühlhausen;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;38;135
+2020;Mühlhausen;P Erziehung und Unterricht;13;27
+2020;Mühlhausen;Q Gesundheits- und Sozialwesen;47;299
+2020;Mühlhausen;R Kunst, Unterhaltung und Erholung;17;20
+2020;Mühlhausen;S Erbringung von sonstigen Dienstleistungen;46;45
+2020;Mühlhausen;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;2;3
+2020;Münster;C Verarbeitendes Gewerbe;11;215
+2020;Münster;F Baugewerbe;39;165
+2020;Münster;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;31;185
+2020;Münster;H Verkehr und Lagerei;14;58
+2020;Münster;I Gastgewerbe;17;51
+2020;Münster;J Information und Kommunikation;7;25
+2020;Münster;K Erbringung von Finanz- und Versicherungsdienstleistungen;4;11
+2020;Münster;L Grundstücks- und Wohnungswesen;8;16
+2020;Münster;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;28;77
+2020;Münster;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;31;94
+2020;Münster;P Erziehung und Unterricht;6;37
+2020;Münster;Q Gesundheits- und Sozialwesen;14;108
+2020;Münster;R Kunst, Unterhaltung und Erholung;9;60
+2020;Münster;S Erbringung von sonstigen Dienstleistungen;20;48
+2020;Münster;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;2;0
+2020;Obertürkheim;C Verarbeitendes Gewerbe;18;451
+2020;Obertürkheim;F Baugewerbe;46;420
+2020;Obertürkheim;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;43;245
+2020;Obertürkheim;H Verkehr und Lagerei;19;102
+2020;Obertürkheim;I Gastgewerbe;31;59
+2020;Obertürkheim;J Information und Kommunikation;13;91
+2020;Obertürkheim;K Erbringung von Finanz- und Versicherungsdienstleistungen;3;11
+2020;Obertürkheim;L Grundstücks- und Wohnungswesen;11;193
+2020;Obertürkheim;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;54;76
+2020;Obertürkheim;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;25;285
+2020;Obertürkheim;P Erziehung und Unterricht;5;0
+2020;Obertürkheim;Q Gesundheits- und Sozialwesen;18;89
+2020;Obertürkheim;R Kunst, Unterhaltung und Erholung;5;0
+2020;Obertürkheim;S Erbringung von sonstigen Dienstleistungen;23;28
+2020;Plieningen;C Verarbeitendes Gewerbe;23;102
+2020;Plieningen;F Baugewerbe;51;238
+2020;Plieningen;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;75;358
+2020;Plieningen;H Verkehr und Lagerei;29;75
+2020;Plieningen;I Gastgewerbe;30;233
+2020;Plieningen;J Information und Kommunikation;30;183
+2020;Plieningen;K Erbringung von Finanz- und Versicherungsdienstleistungen;12;42
+2020;Plieningen;L Grundstücks- und Wohnungswesen;28;25
+2020;Plieningen;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;109;431
+2020;Plieningen;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;29;105
+2020;Plieningen;P Erziehung und Unterricht;14;1934
+2020;Plieningen;Q Gesundheits- und Sozialwesen;25;573
+2020;Plieningen;R Kunst, Unterhaltung und Erholung;16;6
+2020;Plieningen;S Erbringung von sonstigen Dienstleistungen;43;155
+2020;Plieningen;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;4;0
+2020;Sillenbuch;C Verarbeitendes Gewerbe;27;69
+2020;Sillenbuch;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;105;172
+2020;Sillenbuch;H Verkehr und Lagerei;28;65
+2020;Sillenbuch;I Gastgewerbe;26;138
+2020;Sillenbuch;J Information und Kommunikation;23;21
+2020;Sillenbuch;K Erbringung von Finanz- und Versicherungsdienstleistungen;16;41
+2020;Sillenbuch;L Grundstücks- und Wohnungswesen;58;51
+2020;Sillenbuch;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;214;171
+2020;Sillenbuch;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;50;89
+2020;Sillenbuch;P Erziehung und Unterricht;23;184
+2020;Sillenbuch;Q Gesundheits- und Sozialwesen;74;692
+2020;Sillenbuch;R Kunst, Unterhaltung und Erholung;23;21
+2020;Sillenbuch;S Erbringung von sonstigen Dienstleistungen;50;82
+2020;Sillenbuch;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;1;0
+2020;Stammheim;C Verarbeitendes Gewerbe;23;692
+2020;Stammheim;F Baugewerbe;55;237
+2020;Stammheim;H Verkehr und Lagerei;29;187
+2020;Stammheim;I Gastgewerbe;24;48
+2020;Stammheim;J Information und Kommunikation;19;104
+2020;Stammheim;K Erbringung von Finanz- und Versicherungsdienstleistungen;6;15
+2020;Stammheim;L Grundstücks- und Wohnungswesen;17;9
+2020;Stammheim;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;53;204
+2020;Stammheim;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;28;97
+2020;Stammheim;P Erziehung und Unterricht;10;278
+2020;Stammheim;Q Gesundheits- und Sozialwesen;17;91
+2020;Stammheim;R Kunst, Unterhaltung und Erholung;11;48
+2020;Stammheim;S Erbringung von sonstigen Dienstleistungen;21;21
+2020;Stammheim;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;1;1
+2020;Untertürkheim;C Verarbeitendes Gewerbe;15;18244
+2020;Untertürkheim;F Baugewerbe;74;240
+2020;Untertürkheim;H Verkehr und Lagerei;35;491
+2020;Untertürkheim;K Erbringung von Finanz- und Versicherungsdienstleistungen;9;111
+2020;Untertürkheim;L Grundstücks- und Wohnungswesen;39;37
+2020;Untertürkheim;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;78;160
+2020;Untertürkheim;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;41;593
+2020;Untertürkheim;P Erziehung und Unterricht;10;66
+2020;Untertürkheim;Q Gesundheits- und Sozialwesen;37;189
+2020;Untertürkheim;R Kunst, Unterhaltung und Erholung;26;13
+2020;Untertürkheim;S Erbringung von sonstigen Dienstleistungen;36;64
+2020;Untertürkheim;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;4;44
+2020;Vaihingen;C Verarbeitendes Gewerbe;70;1381
+2020;Vaihingen;F Baugewerbe;130;727
+2020;Vaihingen;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;279;5482
+2020;Vaihingen;H Verkehr und Lagerei;61;928
+2020;Vaihingen;I Gastgewerbe;124;539
+2020;Vaihingen;J Information und Kommunikation;228;4162
+2020;Vaihingen;K Erbringung von Finanz- und Versicherungsdienstleistungen;63;518
+2020;Vaihingen;L Grundstücks- und Wohnungswesen;117;124
+2020;Vaihingen;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;552;8901
+2020;Vaihingen;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;119;2657
+2020;Vaihingen;P Erziehung und Unterricht;55;5579
+2020;Vaihingen;Q Gesundheits- und Sozialwesen;139;1454
+2020;Vaihingen;R Kunst, Unterhaltung und Erholung;59;151
+2020;Vaihingen;S Erbringung von sonstigen Dienstleistungen;156;631
+2020;Vaihingen;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;16;164
+2020;Wangen;C Verarbeitendes Gewerbe;15;303
+2020;Wangen;F Baugewerbe;44;373
+2020;Wangen;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;158;1689
+2020;Wangen;H Verkehr und Lagerei;25;320
+2020;Wangen;I Gastgewerbe;34;144
+2020;Wangen;J Information und Kommunikation;25;306
+2020;Wangen;K Erbringung von Finanz- und Versicherungsdienstleistungen;18;67
+2020;Wangen;L Grundstücks- und Wohnungswesen;25;16
+2020;Wangen;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;84;733
+2020;Wangen;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;49;714
+2020;Wangen;P Erziehung und Unterricht;4;3
+2020;Wangen;Q Gesundheits- und Sozialwesen;30;574
+2020;Wangen;R Kunst, Unterhaltung und Erholung;11;54
+2020;Wangen;S Erbringung von sonstigen Dienstleistungen;27;60
+2020;Wangen;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;7;94
+2020;Weilimdorf;C Verarbeitendes Gewerbe;59;4714
+2020;Weilimdorf;F Baugewerbe;102;1090
+2020;Weilimdorf;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;219;2464
+2020;Weilimdorf;H Verkehr und Lagerei;71;752
+2020;Weilimdorf;I Gastgewerbe;65;304
+2020;Weilimdorf;J Information und Kommunikation;62;4050
+2020;Weilimdorf;K Erbringung von Finanz- und Versicherungsdienstleistungen;39;1727
+2020;Weilimdorf;L Grundstücks- und Wohnungswesen;75;40
+2020;Weilimdorf;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;227;1474
+2020;Weilimdorf;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;100;1296
+2020;Weilimdorf;P Erziehung und Unterricht;17;41
+2020;Weilimdorf;Q Gesundheits- und Sozialwesen;67;618
+2020;Weilimdorf;R Kunst, Unterhaltung und Erholung;27;83
+2020;Weilimdorf;S Erbringung von sonstigen Dienstleistungen;62;253
+2020;Weilimdorf;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;14;50
+2020;Zuffenhausen;C Verarbeitendes Gewerbe;70;20233
+2020;Zuffenhausen;F Baugewerbe;177;1095
+2020;Zuffenhausen;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;228;1225
+2020;Zuffenhausen;H Verkehr und Lagerei;70;405
+2020;Zuffenhausen;I Gastgewerbe;118;767
+2020;Zuffenhausen;J Information und Kommunikation;61;151
+2020;Zuffenhausen;K Erbringung von Finanz- und Versicherungsdienstleistungen;13;165
+2020;Zuffenhausen;L Grundstücks- und Wohnungswesen;53;99
+2020;Zuffenhausen;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;163;683
+2020;Zuffenhausen;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;80;561
+2020;Zuffenhausen;P Erziehung und Unterricht;19;100
+2020;Zuffenhausen;Q Gesundheits- und Sozialwesen;89;2301
+2020;Zuffenhausen;R Kunst, Unterhaltung und Erholung;33;72
+2020;Zuffenhausen;S Erbringung von sonstigen Dienstleistungen;89;188
+2020;Zuffenhausen;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;4;29
+2020;unspezifiziert in Stuttgart;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;2;0
+2020;außerhalb von Stuttgart;C Verarbeitendes Gewerbe;5;9
+2020;außerhalb von Stuttgart;F Baugewerbe;25;9
+2020;außerhalb von Stuttgart;G Handel, Instandhaltung und Reparatur von Kraftfahrzeugen;29;21
+2020;außerhalb von Stuttgart;H Verkehr und Lagerei;8;220
+2020;außerhalb von Stuttgart;I Gastgewerbe;14;13
+2020;außerhalb von Stuttgart;J Information und Kommunikation;12;23
+2020;außerhalb von Stuttgart;L Grundstücks- und Wohnungswesen;7;0
+2020;außerhalb von Stuttgart;M Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen;43;59
+2020;außerhalb von Stuttgart;N Erbringung von sonstigen wirtschaftlichen Dienstleistungen;7;257
+2020;außerhalb von Stuttgart;P Erziehung und Unterricht;7;170
+2020;außerhalb von Stuttgart;Q Gesundheits- und Sozialwesen;9;38
+2020;außerhalb von Stuttgart;R Kunst, Unterhaltung und Erholung;9;3
+2020;außerhalb von Stuttgart;S Erbringung von sonstigen Dienstleistungen;17;18
+2020;außerhalb von Stuttgart;B, D, E Bergbau und Gewinnung von Steinen und Erden, Energieversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen;1;0
