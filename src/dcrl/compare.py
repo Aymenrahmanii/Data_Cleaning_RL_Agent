@@ -29,7 +29,7 @@ def dtype_ok(series: pd.Series, spec: ColumnSpec) -> bool:
     return pd.api.types.is_object_dtype(kind) or isinstance(kind, pd.StringDtype)
 
 
-def _equal(result: pd.Series, clean: pd.Series, spec: ColumnSpec, tol: float) -> np.ndarray:
+def equal_cells(result: pd.Series, clean: pd.Series, spec: ColumnSpec, tol: float) -> np.ndarray:
     r_na = result.isna().to_numpy()
     c_na = clean.isna().to_numpy()
     if spec.numeric:
@@ -58,7 +58,7 @@ def cell_matches(
     for j, spec in enumerate(schema.columns):
         if spec.name not in result.columns or not dtype_ok(result[spec.name], spec):
             continue
-        out[:, j] = _equal(result[spec.name], clean[spec.name], spec, tol)
+        out[:, j] = equal_cells(result[spec.name], clean[spec.name], spec, tol)
     return out
 
 
@@ -82,7 +82,7 @@ def mismatches(
         if not dtype_ok(result[spec.name], spec):
             problems.append(f"{spec.name}: dtype {result[spec.name].dtype} is not {spec.dtype}")
             continue
-        bad = ~_equal(result[spec.name].reset_index(drop=True), clean[spec.name], spec, tol)
+        bad = ~equal_cells(result[spec.name].reset_index(drop=True), clean[spec.name], spec, tol)
         if bad.any():
             i = int(np.flatnonzero(bad)[0])
             got = result[spec.name].iloc[i]

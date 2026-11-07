@@ -5,8 +5,8 @@ mixed date formats, placeholders, mixed units, broken umlauts, duplicate and tot
 by writing pandas code, and a small open model trained in it with reinforcement learning.
 Every task is a clean table broken on purpose by recorded steps, so every score is exact.
 
-> **Status: week 1 of 7, the task generator.** The environment, sandbox, baselines and
-> training come next. The results table will open this README once there are results.
+> **Status: week 2 of 7, the environment and sandbox.** The baselines and training come
+> next. The results table will open this README once there are results.
 
 ## Quick start
 
@@ -73,6 +73,57 @@ The CSV ships inside the package (`src/dcrl/data/`), and `NOTICE.md` there gives
 attribution. Every manifest line records its table's source and licence. A public table has
 fewer rows than level 3 asks for, so level-3 tasks on it have 323 rows instead of 1,000.
 
+## Environment
+
+One episode is one messy table. The agent sees the target schema, the row count and the first
+20 rows, then calls four tools:
+
+| Tool | Takes | Returns |
+|---|---|---|
+| `profile(column)` | a column name, or nothing for all | type, empty and distinct counts, sample values, counts of odd patterns (comma decimals, date formats, placeholders, units, whitespace, broken umlauts) |
+| `run_python(code)` | pandas code that changes `df` | printed output, errors (df unchanged), new shape and first rows |
+| `check_schema()` | nothing | columns and rows that break the schema, with examples; never the fix |
+| `submit()` | nothing | confirmation; the episode ends |
+
+At most 10 tool calls before `submit()`.
+
+**Reward**, computed once on the hidden copy: `R = F1_rows x A_cells - 0.02 x max(0, calls - 4)`.
+The code the agent ran on its own copy is replayed, in order, on the hidden copy:
+
+- `A` is the share of cells equal to the clean table (numbers within 0.001, text exact,
+  dates to the day, types right). Rows are matched by the id column.
+- `F1` is over rows. Dropping real rows and keeping duplicates both cost.
+- `calls` counts every tool call, including `submit`.
+- `R = 0` when nothing was submitted, when the episode ran no code, or when the code fails on
+  the hidden copy. We floor the reward at 0 (the formula can go negative with many calls).
+
+Hand-patched cells do not transfer: the reward is computed from the replayed code, so a
+literal written for copy A lands on a different row of copy B.
+
+### Sandbox: what is enforced, and what is not yet
+
+Each `run_python` call runs in a fresh worker process (`python -I`), which reads the table
+as JSON and writes the new table back as JSON. Pickle is never used, because unpickling
+output from agent code would run that code in the trusted process.
+
+| Limit | Status |
+|---|---|
+| 10 s wall-clock limit, process killed on overrun | enforced (tested: an infinite loop is killed) |
+| 10 s CPU, 1 GB address space | enforced on Linux with `resource` limits; not available on Windows |
+| Import allow-list (pandas, numpy and a few standard modules) | enforced for the agent's own imports; tested |
+| No `open`, `exec`, `eval` | removed from the builtins; tested |
+| No network | **not enforced yet.** A failing host name fails (tested), but a reachable one would work |
+| Read-only filesystem, no files outside the table | **not enforced yet** |
+
+The Python-level guards are defence in depth. They are not a security boundary, because a
+determined program can get around them. The boundary the reward depends on is the container
+described in the plan: no network, a read-only root, CPU and memory limits. Docker's CLI is
+installed on the development machine, but the daemon is not running, so the container is
+not built yet. **Do not use the reward for model training until the container is in place.**
+
+The reference agent (`dcrl.env.reference`) runs the generator's recorded fix and submits.
+On the 10,000 training tasks it must score 1.0 on every task.
+
 ## Target schema
 
 Each task comes with column names, types (`int`, `float`, `str`, `category`, `date`), units
@@ -92,6 +143,7 @@ src/dcrl/
   splits.py        train / dev / heldout / unseen
   compare.py       cell-by-cell comparison with the clean table
   cli.py           dcrl generate, dcrl show
+  env/             tools, sandbox worker, diagnostics, reward, reference agent
 ```
 
 ## Licence
